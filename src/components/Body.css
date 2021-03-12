@@ -1,0 +1,51 @@
+.body {
+  flex: 0.8;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  width: 100%;
+  margin-right: -19rem;
+  height: 100vh;
+  overflow-y: overlay;
+  color: white;
+}
+
+.body-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.body-info-txt {
+  flex: 1;
+}
+
+.body-info-txt > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body-info-txt > p {
+  font-size: 14px;
+}
+
+.body-info > img {
+  height: 20vw;
+  margin: 0 20px;
+}
+
+.body-shuffle {
+  font-size: 80px !important;
+  margin: 20px 0 20px 50px;
+}
+
+.body-shuffle:hover {
+  transition: 0.1s transform ease-in;
+  transform: scale(1.08);
+}
+
+.body-songs {
+  margin: 20px -30px;
+}
+
+.body-icons {
+  display: flex;
+  align-items: center;
+}
